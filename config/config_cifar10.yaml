@@ -1,0 +1,19 @@
+network:
+        name: resnet50
+        mlp_head:
+                hidden_size: 512
+                proj_size: 128
+        pred_head:
+                hidden_size: 512
+data:
+        s: 1
+        image_size: 32
+        dataset: 'cifar10'
+        num_classes: 10
+trainer:
+        batch_size: 256
+        epochs: 100
+        num_workers: 4
+optimizer:
+        lr: 3e-4
+        weight_decay: 10e-6
