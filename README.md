@@ -18,7 +18,7 @@ python3 -m folder_name src.run config/config_cifar10.yaml
 Simply run the following:
 
 ```bash
-python3 -m folder_name src.linear_evaluation.run config/config_cifar10.yaml
+python3 -m folder_name src.linear_eval.run config/config_cifar10.yaml
 ```
 
 ## Things to Note
